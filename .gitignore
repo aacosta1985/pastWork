@@ -6,3 +6,4 @@ manifest.mf
 .properties
 nbproject/
 build.xml
+.vscode
