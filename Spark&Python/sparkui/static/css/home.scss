@@ -1,0 +1,110 @@
+
+@import '@kite/vanilla/scss/global/layout';
+@import '../assets/styles/variables';
+
+$banner-height: 370px;
+
+.home {
+  .banner {
+    background-color: $kite-color-dark-blue-20;
+    color: $kite-color-white;
+    display: flex;
+    min-height: $banner-height;
+    box-sizing: border-box;
+
+    a {
+      color: $kite-color-white;
+    }
+
+    &__copy {
+      padding: 40px $docsite-content-lr-padding-mobile;
+
+      @include kite-breakpoint-up('md') {
+        padding: 40px $docsite-content-lr-padding;
+      }
+
+      @include kite-breakpoint-up('xxl') {
+        padding: 40px 0 40px $docsite-content-lr-padding;
+      }
+    }
+
+    &__image {
+      position: relative;
+      display: none;
+      padding-right: $docsite-content-lr-padding-mobile;
+
+      @include kite-breakpoint-up('md') {
+        padding-right: $docsite-content-lr-padding;
+      }
+
+      @include kite-breakpoint-up('xxl') {
+        display: block;
+        padding-top: 39px;
+        margin-bottom: -45px;
+      }
+
+      img {
+        height: $banner-height;
+      }
+    }
+
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 1.25;
+      letter-spacing: -1px;
+    }
+
+    h2 {
+      margin: 8px 0 48px;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 1.3;
+    }
+
+    p:last-of-type {
+      margin: 0;
+    }
+  }
+
+  .home-content {
+    padding: 40px $docsite-content-lr-padding-mobile;
+    max-width: $docsite-content-max-width;
+
+    @include kite-breakpoint-up('md') {
+      padding: 40px $docsite-content-lr-padding;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+    }
+
+    h3 {
+      margin: 0 0 16px;
+      font-size: 20px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.3;
+      letter-spacing: normal;
+    }
+
+    p:last-of-type {
+      margin: 0;
+    }
+  }
+}
+
+.prism-code {
+  background-color: var(--docsite-readme-code-bg) !important;
+}
+
+hr {
+  border: var(--docsite-readme-code-border);
+}

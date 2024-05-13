@@ -1,0 +1,4 @@
+flask==2.2.3
+kubernetes==26.1.0
+awscli==1.27.120
+beautifulsoup4==4.12.2

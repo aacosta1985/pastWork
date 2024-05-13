@@ -1,0 +1,47 @@
+:root {
+    --docsite-icon-bg: var(--kite-color-gray-10);
+    --docsite-kite-icon-color: var(--kite-color-black);
+    --docsite-main-header-bg: var(--kite-color-white);
+    --docsite-main-header-border-bottom: var(--kite-color-gray-20);
+    --docsite-toc-content-border-left: var(--kite-color-gray-20);
+    --docsite-nav-wrapper-bg: var(--kite-color-white);
+    --docsite-nav-wrapper-border-right: var(--kite-color-gray-20);
+    --docsite-nav-section-border-bottom: var(--kite-color-gray-20);
+    --docsite-nav-list-item-color: var(--kite-color-black);
+    --docsite-nav-list-item-hover-color: var(--kite-color-black);
+    --docsite-nav-list-item-hover-bg: var(--kite-color-gray-20);
+    --docsite-nav-list-item-active-color: var(--kite-color-white);
+    --docsite-nav-list-item-active-bg: var(--kite-color-blue-20);
+    --docsite-component-preview-bg: var(--kite-color-gray-10);
+    --docsite-component-preview-border: none;
+    --docsite-props-table-border: var(--kite-color-gray-20);
+    --docsite-props-table-stripe: var(--kite-color-gray-10);
+    --docsite-component-live-code-bg: rgb(30,30,30);
+    --docsite-component-live-code-border-top: none;
+    --docsite-readme-code-bg: rgb(30,30,30);
+    --docsite-readme-code-border: 1px solid var(--kite-color-gray-10);
+}
+
+.kite-theme--dark {
+    --docsite-icon-bg: var(--kite-color-dark-blue-30);
+    --docsite-kite-icon-color: var(--kite-color-white);
+    --docsite-main-header-bg: var(--kite-color-dark-blue-20);
+    --docsite-main-header-border-bottom: var(--kite-color-dark-blue-30);
+    --docsite-toc-content-border-left: var(--kite-color-dark-blue-20);
+    --docsite-nav-wrapper-bg: var(--kite-color-dark-blue-20);
+    --docsite-nav-wrapper-border-right: var(--kite-color-dark-blue-30);
+    --docsite-nav-section-border-bottom: var(--kite-color-dark-blue-30);
+    --docsite-nav-list-item-color: var(--kite-color-white);
+    --docsite-nav-list-item-hover-color: var(--kite-color-white);
+    --docsite-nav-list-item-hover-bg: var(--kite-color-dark-blue-10);
+    --docsite-nav-list-item-active-color: var(--kite-color-white);
+    --docsite-nav-list-item-active-bg: var(--kite-color-blue-20);
+    --docsite-component-preview-bg: var(--kite-color-dark-blue-30);
+    --docsite-component-preview-border: 1px solid var(--kite-color-dark-blue-20);
+    --docsite-props-table-stripe: var(--kite-color-dark-blue-20);
+    --docsite-props-table-border: var(--kite-color-dark-blue-20);
+    --docsite-component-live-code-bg: var(--kite-color-dark-blue-30) !important;
+    --docsite-component-live-code-border-top: 2px solid var(--kite-color-dark-blue-20);
+    --docsite-readme-code-bg: var(--kite-color-dark-blue-20);
+    --docsite-readme-code-border: 1px solid var(--kite-color-dark-blue-10);
+}

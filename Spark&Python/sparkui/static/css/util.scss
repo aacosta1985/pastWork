@@ -1,0 +1,21 @@
+
+.rk {
+    $alignments: right, left, center, justify;
+    @each $ta in $alignments {
+        &__ta-#{$ta} {
+            text-align: $ta;
+        }
+    }
+
+    $index: 100;
+    $increment: 5;
+    $start: 5;
+    @while $start <= $index {
+        $p: percentage($start / 100);
+        &__w#{$start}\%{
+            width: $p;
+        }
+        $start: $start + $increment;
+    }
+}
+
