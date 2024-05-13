@@ -24,7 +24,7 @@ public class Main {
         
         
         //set student name
-        aStudent.setName("Asshole Antonio");
+        aStudent.setName("Antonio");
         
         
         //test
