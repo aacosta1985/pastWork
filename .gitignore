@@ -1,1 +1,8 @@
 .DS_Store
+.netbeans_automatic_build
+.netbeans_update_resources
+db.lck
+manifest.mf
+.properties
+nbproject/
+build.xml
