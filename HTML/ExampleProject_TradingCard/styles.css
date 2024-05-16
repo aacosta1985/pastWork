@@ -1,0 +1,39 @@
+.fact {
+  font-style: italic;
+}
+span {
+  font-weight: bold;
+}
+/* li {
+  list-style: none;
+  list-style-position: outside;
+} */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+#card {
+  box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.22);
+  height: 670px;
+  width: 320px;
+  border: 1px solid #D3D3D3;
+}
+.name {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  text-align: left;
+  font-size: 30px;
+}
+.info {
+  border: 1px solid #D3D3D3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pic {
+  padding-left: 10px;
+  padding-top: 0px;
+}
+#b {
+  padding: 10px 10px 10px 10px;
+}
